@@ -1,0 +1,16 @@
+.card-bookmark {
+    position: relative;
+  }
+  
+  .card-bookmark .bookmark {
+    display: none;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  
+  .card-bookmark:hover .bookmark {
+    display: block;
+  }
+  
+  
